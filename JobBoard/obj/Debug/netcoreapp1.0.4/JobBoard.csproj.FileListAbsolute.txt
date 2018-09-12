@@ -1,0 +1,9 @@
+/Users/YnahPinedaMercado/Desktop/JobBoard.Solutions/JobBoard/bin/Debug/netcoreapp1.0.4/JobBoard.deps.json
+/Users/YnahPinedaMercado/Desktop/JobBoard.Solutions/JobBoard/bin/Debug/netcoreapp1.0.4/JobBoard.runtimeconfig.json
+/Users/YnahPinedaMercado/Desktop/JobBoard.Solutions/JobBoard/bin/Debug/netcoreapp1.0.4/JobBoard.runtimeconfig.dev.json
+/Users/YnahPinedaMercado/Desktop/JobBoard.Solutions/JobBoard/obj/Debug/netcoreapp1.0.4/JobBoard.csproj.CoreCompileInputs.cache
+/Users/YnahPinedaMercado/Desktop/JobBoard.Solutions/JobBoard/obj/Debug/netcoreapp1.0.4/JobBoard.AssemblyInfo.cs
+/Users/YnahPinedaMercado/Desktop/JobBoard.Solutions/JobBoard/bin/Debug/netcoreapp1.0.4/JobBoard.dll
+/Users/YnahPinedaMercado/Desktop/JobBoard.Solutions/JobBoard/bin/Debug/netcoreapp1.0.4/JobBoard.pdb
+/Users/YnahPinedaMercado/Desktop/JobBoard.Solutions/JobBoard/obj/Debug/netcoreapp1.0.4/JobBoard.dll
+/Users/YnahPinedaMercado/Desktop/JobBoard.Solutions/JobBoard/obj/Debug/netcoreapp1.0.4/JobBoard.pdb

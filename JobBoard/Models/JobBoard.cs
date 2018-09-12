@@ -3,14 +3,14 @@ using System.Collections.Generic;
 
 namespace JobBoard.Models
 {
-  public class JobOpening
+  public class Job
   {
     private string _title;
     private string _description;
     private Dictionary<string, string> _contact = new Dictionary<string, string>();
-    private static List<JobOpening> _listOfJobs = new List<JobOpening>(){};
+    private static List<Job> _listOfJobs = new List<Job>(){};
 
-    public JobOpening(string title, string description, string name, string phoneNumber, string email)
+    public Job(string title, string description, string name, string phoneNumber, string email)
     {
       _title = title;
       _description = description;
@@ -58,7 +58,7 @@ namespace JobBoard.Models
     {
       _contact["email"] = newEmail;
     }
-    public static List<JobOpening> GetList()
+    public static List<Job> GetList()
     {
       return _listOfJobs;
     }

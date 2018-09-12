@@ -4,13 +4,13 @@ using JobBoard.Models;
 
 namespace JobBoard.Controllers
 {
-  public class JobOpeningController : Controller
+  public class JobBoardController : Controller
   {
     [HttpGet("/job")]
     public ActionResult Index()
     {
       //use GetList() to show existing list of cars
-      List<JobOpening> allJobs = JobOpening.GetList();
+      List<Job> allJobs = Job.GetList();
       return View(allJobs);
     }
     [HttpGet("/job/new")]
@@ -21,11 +21,11 @@ namespace JobBoard.Controllers
     [HttpPost("/job")]
     public ActionResult Create()
     {
-      JobOpening newJob = new JobOpening(Request.Form["new-title"], Request.Form["new-description"], Request.Form["new-name"], Request.Form["new-phoneNumber"], Request.Form["new-email"]);
+      Job newJob = new Job(Request.Form["new-title"], Request.Form["new-description"], Request.Form["new-name"], Request.Form["new-phoneNumber"], Request.Form["new-email"]);
       // Dictonary newContact = new Dictionary();
       newJob.Save();
       // newContact.Save();
-      List<JobOpening> allJobs = JobOpening.GetList();
+      List<Job> allJobs = Job.GetList();
       return View("Index", allJobs);
 
     }
